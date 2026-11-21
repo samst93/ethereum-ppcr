@@ -8,7 +8,9 @@ Parity Proxy Contract Recovery — Ethereum Core EIP research, historical eviden
 PPCR explores a deterministic, historically bounded Ethereum consensus mechanism for restoring owner-authorized control of assets affected by the November 2017 Parity multisignature library destruction.
 
 Etereum-Magicians https://ethereum-magicians.org/t/research-draft-ppcr-parity-proxy-contract-recovery-protocol/30469
+
 PPCR_Protocol_Working_Draft_v0.1 [PPCR_Protocol_Working_Draft_v0.1.pdf](https://github.com/user-attachments/files/35221397/PPCR_Protocol_Working_Draft_v0.1.pdf)
+
 Visual Explanation of PPCR_Protocol [PPCR_Explained_Research_Overview_v0.1.pdf](https://github.com/user-attachments/files/35221576/PPCR_Explained_Research_Overview_v0.1.pdf)
 
 ## Research completed
