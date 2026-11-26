@@ -1,0 +1,2 @@
+reports/historical-validation/*.json -text
+reports/historical-validation/SHA256SUMS.csv -text
