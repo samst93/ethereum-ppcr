@@ -1,0 +1,5910 @@
+{
+  "authorizationSnapshotMismatches": 0,
+  "changedBalances": 21,
+  "dispositions": {
+    "PROCEED_TO_PROOF_VERIFICATION": 260,
+    "QUARANTINE_PENDING_SEMANTICS": 24
+  },
+  "flagCounts": {
+    "DUPLICATE_OWNER": 10,
+    "INVALID_THRESHOLD": 7,
+    "NONCANONICAL_OR_ZERO_OWNER": 7,
+    "OWNER_INDEX_MISMATCH": 10
+  },
+  "inputSha256": "8b4269433398f247e5034724b0c386bcb79d6e266ac227608d1efc6eca5a57ef",
+  "limitations": [
+    "RPC observations only",
+    "Enumerated owners may not exhaust mapping keys",
+    "No historical bytecode execution or signature verification",
+    "No recovery eligibility established"
+  ],
+  "metadata": {
+    "blocks": {
+      "current": 26494170,
+      "post": 4501969,
+      "pre": 4501968
+    },
+    "canonicalRootAttestation": "PENDING",
+    "eligibility": "NOT_DETERMINED",
+    "evidenceLevel": "RPC_OBSERVATION_NOT_MPT_PROOF",
+    "hashes": {
+      "current": "0x7842f1c4bd627c3437afe5d1f2d56de307556c10bb34cda9bbe0aa7a3d6460d5",
+      "post": "0x894f3aac1c8a0c9b05d2cbe6c0c9af907ca44a1c96aeda69a0ec064b9a74b790",
+      "pre": "0xfa31f3dc57eddd5e481406b66b92d0968a6cec8f27bb459db9b8e97a5731ac91"
+    },
+    "roots": {
+      "current": "0x59e252211d43a01f10a6d9e18dc94f7218a0dff7a9776fa70a67ac744c233bf4",
+      "post": "0xbbe30a4416aa0f5ddc3d61e56b670565f6174513df3fb24525f7e2a5a7da9e1b",
+      "pre": "0xb1f01f4c02cf90ffb4011de01da52c6681255654c8767f5b999c65fe1a61a53b"
+    },
+    "schema": "ppcr-d3i16-stage2d1-v1",
+    "sourceSha256": "b7a24625a5a8e1811b48b7fe5c61219b13454014b5e8b987b6fa144c3845e209"
+  },
+  "schema": "ppcr-d3i16-stage2d2-offline-v1",
+  "walletCount": 284,
+  "wallets": [
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "30000000000000000000",
+      "balanceWei": {
+        "current": "40410922800000000000",
+        "post": "10410922800000000000",
+        "pre": "10410922800000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [
+        "0x00f61147eb0e0c5a256c7d99b4af92625fe985aa"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0xf61147eb0e0c5a256c7d99b4af92625fe985aa",
+          "index": 1,
+          "mappingSlot": "0x30705e39bebf30a848d635ad1009ddfc8f46abc68e885759936e7a36b2401305",
+          "mappingValue": "4",
+          "owner": "0x00f61147eb0e0c5a256c7d99b4af92625fe985aa"
+        }
+      ],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "44433042000000000",
+        "post": "44433042000000000",
+        "pre": "44433042000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0285d5528f574f1361009eef75a4f61942767799",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x038422e0057c4df8460b73920f28426b8f6cd452",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "360000000000000000000",
+        "post": "360000000000000000000",
+        "pre": "360000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x043dae09e7f51d02b8745bcf82c4c5ee86e4bc96",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x04fbee65aaf9d0d179de1ec22cd6c184b27e7ec1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0547c01a2423bc924c9a219fd4fb1654c055c5c0",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x059c3940a3ed449ef9828727284100e2521d7c73",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "119568369382004006473",
+      "balanceWei": {
+        "current": "1674444887742474560201",
+        "post": "1554876518360470553728",
+        "pre": "1554876518360470553728"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x05b34bf3562c61715f70240104abc6ae8c80055c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "399000000000000000000",
+        "post": "399000000000000000000",
+        "pre": "399000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x05cf82965cc412494c5de53bf107ec631accf03e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x05e415a1626d9d6f7a79916021394c38f5bdd2e4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x05edf9131b598faafa0e8343f34d50aa2cdc408b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0760bfd74512ed0f143fcc67c957087ba787b3a6",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x08a373919c3d99ba6ef5bb85a74811146ce9061b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0900d7ecfacdec21aca271b0133b9e387ece1321",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x09e23cade251c61866c480c247e77a9952d86823",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0a4bef293d429fc5a861901bc2bfc0f72ed95fb1",
+      "zeroSlots": [
+        8
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0acb63630dae423c86f136157f0da237054f4c90",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0c168386b22708f79aa062fb9efe79d2268952fe",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "190000000000000",
+        "post": "190000000000000",
+        "pre": "190000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0d6c24d85680a89152012f9dc81e406183489c1f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "20536070916000000000",
+      "balanceWei": {
+        "current": "22026070916000000000",
+        "post": "1490000000000000000",
+        "pre": "1490000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0d8c9b040651f621ee26f076c57910e86aab0bc0",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0e0ba4154c61211623374b3869c9c038d205eee4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0e396cc1a7693c1d0e0d5f72cdfaa61441e662a6",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x0f6f59698719113cd8bec98bd87536a776808f81",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x108d3d8a7a442da1a5c0f5d83c4c05ba04ed30af",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "365000000000000000000",
+        "post": "365000000000000000000",
+        "pre": "365000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x10e301560860db30dc1bc519a99aa860bc71f076",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x10ec053e06ccc3cabb5c0ace8a1bf222ebc75159",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x11769ccab9fb7888db173965fc3883923594b832",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x12f92c6db3c50ab62419045f45fea7f3782665fb",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [
+        "0x0096e9fb9501f98c221c09aea8243373e0b3f28a"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x96e9fb9501f98c221c09aea8243373e0b3f28a",
+          "index": 1,
+          "mappingSlot": "0xe5ff13ea90ba9ea859c5142ada988839a67f9d1ef367cf9cddbaec6e8f13d319",
+          "mappingValue": "2",
+          "owner": "0x0096e9fb9501f98c221c09aea8243373e0b3f28a"
+        }
+      ],
+      "reportedOwnerCount": 5,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x149aad93f11e48e4b5f43232f5efdc2d42a88440",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1a803c3c0373597351d19bd48e5ab4dedbbdc6f4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "13000000000000000",
+        "post": "13000000000000000",
+        "pre": "13000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1afb16d06e76e39732728e186e519d99a156ef4e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1b25a52f29ef9a0d64f31cb380323f0c3174b81d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1bbd93c4a939da46490dd53f248b4b2967a639fa",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "1000000000000000000000",
+        "post": "1000000000000000000000",
+        "pre": "1000000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1c0e9b714da970e6466ba8e6980c55e7636835a6",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x1c1a467263b7f47312fd5932f8cc0f655648e77e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "500000000000000",
+        "post": "500000000000000",
+        "pre": "500000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x20db5d16771a4ebbb83a00cc27b784407a3bae97",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x212d65b0d28d0fbc8ecdf1bdbba44897d8c8c459",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "2910836440000000000",
+        "post": "2910836440000000000",
+        "pre": "2910836440000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x21675f1b593ac15c5585bca5e7778e4f391620bd",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2178b33171b49484c22168091446495ffc3d431b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "2000000000000000000",
+        "post": "2000000000000000000",
+        "pre": "2000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2223f7c7f7f40466e56c64aac7a7bed87b859ef3",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x228dee661be746e3492990930de3f60d955296ea",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "400000000000000000000",
+        "post": "400000000000000000000",
+        "pre": "400000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x22ef5434cc2deb6c760c7ebbc88777d1f32757f6",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x24a37d9c36b38b10c2ddce7220cab9342c9433e2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [
+        "0x8f7b39769ad565ff82c8dba3a157e4e6ead7c2f2"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x8f7b39769ad565ff82c8dba3a157e4e6ead7c2f2",
+          "index": 1,
+          "mappingSlot": "0x0c9bf008f4617c0577fdb3d14ca49f6d8285fb568ea15224460b520b9abb7f9a",
+          "mappingValue": "2",
+          "owner": "0x8f7b39769ad565ff82c8dba3a157e4e6ead7c2f2"
+        }
+      ],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x258119b345a71bde55aeb67413c0c6e7e96c44bf",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "19345831000000000",
+        "post": "19345831000000000",
+        "pre": "19345831000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x25f602eb3497cfc37d70436513fca6df45a84181",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2711cb6a338d054d566f65432ca3f77581e09627",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2800ec80ea2b19fefb0f56e6070abf602f83afd1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x28b4c74e4aa23a0fe7799c47b5295f7ae44b1b42",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [
+        "0x796684b3a77cf8c13f17c34bacd68fbe9b058614"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x796684b3a77cf8c13f17c34bacd68fbe9b058614",
+          "index": 1,
+          "mappingSlot": "0xce46821c6f3b12dd25c67672e3a51190d97ed1e15bceea466136bbc70a7db19e",
+          "mappingValue": "2",
+          "owner": "0x796684b3a77cf8c13f17c34bacd68fbe9b058614"
+        }
+      ],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [
+        "0x00474876d68f745acc635fd1d12062521bb1edb0"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x474876d68f745acc635fd1d12062521bb1edb0",
+          "index": 1,
+          "mappingSlot": "0xfe2a961e24ee60c441bb27966372f1dd5d8ca2c22046993721fbb5edf6519632",
+          "mappingValue": "2",
+          "owner": "0x00474876d68f745acc635fd1d12062521bb1edb0"
+        }
+      ],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2b41c085a79a3bdf5494141cec188cfbbf70b2b9",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [
+        "0x9786f326698c85193cdb0e20d2f67ae4284b47d8"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x9786f326698c85193cdb0e20d2f67ae4284b47d8",
+          "index": 1,
+          "mappingSlot": "0x4dd56b74b6ae68439cb69e6c897bfc59e9d2e66416b8a1c85222d65b41f18a34",
+          "mappingValue": "2",
+          "owner": "0x9786f326698c85193cdb0e20d2f67ae4284b47d8"
+        }
+      ],
+      "reportedOwnerCount": 3,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0x2b70211148e956955db8fd5beea4f634a5ad1744",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2bb433d6a7b6bea34f741c8038a8d42edef23756",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2e3efc824210201065663a56d92aa09ac5762da4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "100100000000",
+      "balanceWei": {
+        "current": "4350123470100000000",
+        "post": "4350123370000000000",
+        "pre": "4350123370000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2f56c5f0b2548ce52fac5512b76eadbb2c511a7f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "25482758620689651",
+        "post": "25482758620689651",
+        "pre": "25482758620689651"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x2f8d38c727ebac1daf6b42e15cdbe73cad0e2211",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "20000000000000000",
+        "post": "20000000000000000",
+        "pre": "20000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x32a528762b6326ca0e2b314530d412f823a23d51",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3323f041f2e6445103dd7f287baedc3ebdf58f4a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "5000000000000000",
+        "post": "5000000000000000",
+        "pre": "5000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x333197356ea72113feb0c3453f1bafc3e64c2d93",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x33cc8a390496513f767f970c34e23ac4df8e89ef",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x34335ca0a2525f6a3b38ce94f3d5524d33856191",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3467fd15e1d6356b6f74745d4b14aecec25ee6fb",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x34b8ae154641782c9e2933d720f31ac3c9a990f8",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "400000000000000000000",
+        "post": "400000000000000000000",
+        "pre": "400000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x35bd14e205251f3ee0405bc543ceac1d776e5736",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x35dd33232bb08d749036d4ba87fa05352f1014bf",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "133737051000000000",
+        "post": "133737051000000000",
+        "pre": "133737051000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3646da9d8e6cb67b0cf86af2c30c8b615d9bb9ce",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "77633777777777",
+      "balanceWei": {
+        "current": "114939000077633777777777",
+        "post": "114939000000000000000000",
+        "pre": "114939000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x376c3e5547c68bc26240d8dcc6729fff665a4448",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "5500000000000000000",
+        "post": "5500000000000000000",
+        "pre": "5500000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x37764fe50340f0158b9facefb3dbaf5222e34a3d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "350000000000000000000",
+        "post": "350000000000000000000",
+        "pre": "350000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x37c6772be3e333e8acbc38521fb5090b0abe1a3b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0x3853a8344c162cc19d2cad87ee7d1e6159f703ca",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "397000000000000000000",
+        "post": "397000000000000000000",
+        "pre": "397000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x39d46c1824dfc32ad4e80c28a825296a8ac52437",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3b9aedad1133bf070800feda93d590ff7ca18a05",
+      "zeroSlots": [
+        8,
+        9
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3bdb859ca3655417d054a594e011587b4ac46c35",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "363286212000169557",
+      "balanceWei": {
+        "current": "306276635537611926371557",
+        "post": "306276272251399926202000",
+        "pre": "306276272251399926202000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 7,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 7,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3bfc20f0b9afcace800d73d2191166ff16540258",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3e103db22424567f92d39b3f8b3c14231cdf3073",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3e4317888097067bf21361941dbde052e044c70e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "1568313605499999999800",
+        "post": "1568313605499999999800",
+        "pre": "1568313605499999999800"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x3fcb02a27dc60573a0cb9bff9528fcd77e78d734",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4051e94da0f345653b7decd9d20062b56715e90e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "4995000000000000000",
+        "post": "4995000000000000000",
+        "pre": "4995000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4073404129aea005a661f09c38bc64908b27a746",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x409487eb9a4aa50a3f3016f1b58166e8b339485e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "51724447411826174200",
+      "balanceWei": {
+        "current": "3263661855090448108600",
+        "post": "3211937407678621934400",
+        "pre": "3211937407678621934400"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x41849f3bd33ced4a21c73fddd4a595e22a3c2251",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x41cf890bba58ae36a7a37757aaed4c698ac9dfa1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x41fd44e2babd518e5b4cfbd8e0af38fbfdc13373",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "30000000000000000",
+        "post": "30000000000000000",
+        "pre": "30000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x42ac09396496d2484114625078ed29205ba01244",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 0,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "299075689429200000",
+        "post": "299075689429200000",
+        "pre": "299075689429200000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4405cdf409d270fa55f9a4020c3b5772bf1a1a10",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x44e64e26bc024a51692e4e0195c45c98ed99ff9c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10003182000000000",
+        "post": "10003182000000000",
+        "pre": "10003182000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4623913527a5511822e11490a91dade706f9d854",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x470864a7e3335b8f3153b175d9fdded8eeb21398",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x470efa7764407de9c142745c8c36fd3150ab341b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4829eb238fede85816a965dfd7bf0246543cfbf4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "1000000000000000",
+        "post": "1000000000000000",
+        "pre": "1000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x493f7decbf1e3da9765c4db06abb8c4daf4a7893",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x49a0ffb48c8cbae349d20df2a7e8e74f6d228804",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4a24e33338dfd3c065da1485ce3e3c81f5af327f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4a8669c9cf441ac82a1c3f6e65b1cb487c26ae46",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 5,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0x4b0f72d7007a019da07c7f3b9a8a5472374aeecf",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4b22e669bddff412ba47e5de4fc38fab4d93ed04",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4f1ac562c120f0d47101ebe7909ce3023225b4bc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x4ff2aa45ac9975b87b410aaec49d98050a4074da",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "103701850000000000",
+        "post": "103701850000000000",
+        "pre": "103701850000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5034942d80e0021927c22faa51c4021dc654f14f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x518c463889a8866e19ea9d56ceee1f03cede38c4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "60000000000000000",
+        "post": "60000000000000000",
+        "pre": "60000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x527f30fe3dbe43e8f6f7babf0c8dc5cea57e5431",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x528acf298d7939b294683982e48120d503ad17d1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x52d1caa1e63b3fcf8de34108663f89ed2cfc7874",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "50000000000000000",
+        "post": "50000000000000000",
+        "pre": "50000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5311fce951684e46cefd804704a06c5133030dff",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "350000000000000000000",
+        "post": "350000000000000000000",
+        "pre": "350000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x53ea709e81eefa48a311b2a582ad8057d45d4acc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5402e1e0fc3eb19a59a2ef2f5082f04fb2c7ab82",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x562ab60e521b0779b72d87bdcb3471296feb127e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x56b64e3c98685e8260ed46d23a720577a6b5c0b1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x56dbf0c4a4dcc8ec254b92c49e7b6b7b24d38efd",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "15000000000000000000",
+        "post": "15000000000000000000",
+        "pre": "15000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x570f77473c329a5149fe5d5786d8759e38ed15be",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [
+        "0x00e065e043f77859d0ac1fb430e1d08cd24b7464"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0xe065e043f77859d0ac1fb430e1d08cd24b7464",
+          "index": 1,
+          "mappingSlot": "0xfe6bc704ec95b054f7326286c6ea95b1bc7e7012ff6f6db2dfec41fef6f4ca63",
+          "mappingValue": "2",
+          "owner": "0x00e065e043f77859d0ac1fb430e1d08cd24b7464"
+        }
+      ],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x57e7a9668a60d9a6fad927c048051610ce5feb03",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x58d7b92089b22422bd04e27d02146111adf53cd8",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5aa393731c8cbb83c6c4dd9c5241c59c68c1dfa2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "500000000000000",
+        "post": "500000000000000",
+        "pre": "500000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5ab18d3b796bae844e243d0bc906b0209106c10a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5bcf689874163503c5117fba7dda3c920becd769",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5c4734ee28fd8c3b19e7055d584863349c8d1129",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "10000000000",
+      "balanceWei": {
+        "current": "40010010000000000",
+        "post": "40010000000000000",
+        "pre": "40010000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x5f35846a992f12eefc7ec203aebafef2ebf1ac7d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x602ac8d3e6da55a7bc97d2e8bbfe13e60d0a8d2b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x614b748b4338e1e112759f8abe9bec5c64c252d0",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x629e7ff35089d7a8b9f021cf572a6f45f32e792f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x629efa63717ffc6b621368617dcfe500ae040d5e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x64397573d38897dd860cf8344ed55baf9a29e752",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x64d9f57b88899bebfb17a3644749c237eeb9e525",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x6650afe4b4f567a1e211d3d9471571965a431d57",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x66b88e6e950310627061c2d373954eed7ce1521a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "5992205830900000000",
+      "balanceWei": {
+        "current": "23203579451313374000",
+        "post": "17211373620413374000",
+        "pre": "17211373620413374000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [
+        "0x00b2fee32a6bf0d38772e42e0dbb65557dda33f9"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0xb2fee32a6bf0d38772e42e0dbb65557dda33f9",
+          "index": 1,
+          "mappingSlot": "0xd9afe04a6daab8cba323c5c3a0cd24b73bb082cbeb697870923efefa2b16dbc5",
+          "mappingValue": "2",
+          "owner": "0x00b2fee32a6bf0d38772e42e0dbb65557dda33f9"
+        }
+      ],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x66ea39aee3f4a2e39d2f28b397a4daf0bffafd89",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x6924d3ad691e7f641ffe1c95aa6297e4c10e5e86",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "100000000000000",
+      "balanceWei": {
+        "current": "501000100000000000000",
+        "post": "501000000000000000000",
+        "pre": "501000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x6e314220258a6fa41c2d50cd98f123ffff247d9e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x70fb2712bccb7a416b28b09951e5093eaf394966",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "44160000000000000",
+        "post": "44160000000000000",
+        "pre": "44160000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x71aa2bcff9abbd8301ddfe58d8116bf79ef71420",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "3000000000000000",
+        "post": "3000000000000000",
+        "pre": "3000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7614ba4b95cc4f456cae349b94b8a6992d4818ea",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "779089244680000000000",
+        "post": "779089244680000000000",
+        "pre": "779089244680000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7693f7100a671d0cbfca63bd766fd698c17d6f04",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 7,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 7,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x78d653cde46185653dfac71464b000daa5eedf1f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7989955d18adc3d356cfa5f3770621bba37d9d9f",
+      "zeroSlots": [
+        8
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7b0f1fa8eb11f40b6e28822a9ffe3719301f4b58",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "11041457641633728500",
+      "balanceWei": {
+        "current": "146448694817589558870",
+        "post": "135407237175955830370",
+        "pre": "135407237175955830370"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7b6bce3cf38ee602030662fa24ac2ed5a32d0a02",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7bd1a91a8b83a8f3939c704a4b44d1c4f6b2b83f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "6663314377000000000",
+        "post": "6663314377000000000",
+        "pre": "6663314377000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7c922218294246fc1e8c99c737f87afd94361f4f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7db3af869d3db2159cd89faa2848e2ea4cd36c1c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7de36a68d8d1c218a8cc7ab926d61c51dc9bb210",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "19756397777777777",
+      "balanceWei": {
+        "current": "285016271855529483061",
+        "post": "284996515457751705284",
+        "pre": "284996515457751705284"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x7e5b6dd9ba1abf42bfb41e5ae8f46fe5e01aae14",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x80c9d21293620f4f472e337dab1e5589cbe4645d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x81822027f08cff852817d24e8be679d5201ac8a4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8211a8c59d601f8205746081eeb6e02f589c2e1f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "200000000000000000",
+        "post": "200000000000000000",
+        "pre": "200000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x823b2b1170af527499b2e99bcbb97b5990f3c9ad",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0x8266bcb06a66efe3150a6f3ddd4f43caeb566245",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x82878f8cc60eaa2aa903c1409a8cda5cfd9edc16",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x82e06b901ee13f8720435a3a256ed822c390c8d1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "50000000000000000",
+        "post": "50000000000000000",
+        "pre": "50000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x830389b854770e9102eb957379c6b70da4283d60",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8327f619e90d576407e5497106e546e29213cd0e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x83cd2f9f47744b9c3110dad55da1eb66c47ac163",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "80000000000000000",
+      "balanceWei": {
+        "current": "80000000000000000",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x83f3159c3293fd4becb2a8fa3e545d33eaf7e1e7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "zeroSlots": [
+        10
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x84b8d682d478d1201e88d55b9466f652a97a28db",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8613b02915ba251f22be62724b7a95ff057966ab",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x870c2f61a0ea4b34a8db470c121ee5232bb5f260",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8811830251f705b793ee3f732014fe5dc611c706",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x88370cad496cebc663a6b4b3127582ad2fcfc99a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x88c27b1c75b5e8d0391e08100153d38a94ed06ac",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8ab0bea750695b06b810e6fccc02bd758c90f9ec",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8b910bb7a02af0e13eb199b728218850c731dbab",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "19000000000000000",
+        "post": "19000000000000000",
+        "pre": "19000000000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [
+        "0x00296e40ffcdaf68f563e53993ae6eab31272d11"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x296e40ffcdaf68f563e53993ae6eab31272d11",
+          "index": 1,
+          "mappingSlot": "0xfa298dc3294808bee092ab85bd5623dc503cd98ceaf1bd56ba88d748b55390d3",
+          "mappingValue": "2",
+          "owner": "0x00296e40ffcdaf68f563e53993ae6eab31272d11"
+        }
+      ],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8cfab485f4de196cc65073dc8d1196c7b6449940",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "400000000000000",
+        "post": "400000000000000",
+        "pre": "400000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8d358fdc7e1ed7e69f7fb6d5daccc77282a2d737",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8da8bb9d085cd73b35da7f36be737f6d3fb8b0c2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "1079317753324003460",
+        "post": "1079317753324003460",
+        "pre": "1079317753324003460"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8f3e6219ca5ed4a6e801a17c3dc57a9648f3e6ce",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "7523200000000000000",
+        "post": "7523200000000000000",
+        "pre": "7523200000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8f7070b6b8e8ac245cc8735c32cccc12e178a99e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x8f7d95abcab6775651dc35bfec346632affff9b0",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x90c58937ff2de4759a71296868a18b5b33dc9faa",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x91b76e63b765d8c7c0b45e482b3eb77b42e10a24",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x922ce38cfd82f671a2c5655ec88bf0699d621540",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x944958fe3bbf95648299507a7f07d95a9a332d96",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x94535a9cee64a0258af01c8cc41cfaf7bfb58f76",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "671694357481586047872",
+        "post": "671694357481586047872",
+        "pre": "671694357481586047872"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x94bd4150e41c717b7e7564484693073239715376",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x95c3d9ed68bd806f699667d21d9c5cfe7a1daa89",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0x95f49c4ac16563ebe09e98543cdc38a0265c1934",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "90000000000000000",
+        "post": "90000000000000000",
+        "pre": "90000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x964f2e3d75819a4bb1bc9f2f47ed47efaf92eb6c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x97e285c10c1195421e965c3edeb235ce28c65e1c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x998a7359741d4d5db1fbb3f61dde6ed1d4563c86",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "500000000000000000",
+        "post": "500000000000000000",
+        "pre": "500000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x9bdb38e76bd58da9a1ef8299e7903f39d892642a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "10000000000000000",
+      "balanceWei": {
+        "current": "10800000000000000",
+        "post": "800000000000000",
+        "pre": "800000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x9cd71ef49622831ff7797c75ba27abace38f4719",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x9cfd4cbad59b0597bc567b450ec85e9d44f1c9dc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x9d1c821881647a4dbd7e6fafe38a45ed59947082",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0x9e5a4063237844f097f556c3e888bde76fcfbb22",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa0584912b347c682aa66a2b3f60f2e5e32aac6da",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa09484f00643f63a6211f75777c297551910c167",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa4c0fb13c035cdea065155587a7b565485baaf60",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa7f2266d244e208e5e4231fb72420a3883a5f4fa",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa846efc1c1aefd57cf248025f1585a86ce34bc7b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa8df1a82c3602b7d4f2e35013715f48586bef9f7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "100000000000000000",
+        "post": "100000000000000000",
+        "pre": "100000000000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 7,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "zeroSlots": [
+        12
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xa976626a522fde68abd9b773c2981d45c62e374e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xaab958c9374ab606dfc7ce85b77111d146e3f669",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "7000000000000000",
+        "post": "7000000000000000",
+        "pre": "7000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xac3c64644d3ca6f960308ed7cd79bfa794bf12b1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 8,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 8,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xadc2f95304136c70dd5ec2ad1da1c87d182803d5",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xafe1c046029ac21f6b45462dde38f61d3cbc607a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb03cc3fe8f21e0933eba76bc9817dfea3b33f3a3",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb15d06ac0cefe8b497a458df49d0b8467a9bac9e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb374ad7c24e5ca585d43884d9a1f5ff8165d9bfd",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb3d2f5164f21a7c7328b312b760e4eea6a2291a2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb4b867a8a5872c185dc65f9f756bec7e1f26a8db",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0xb696bee07c81b57ef2832353a7e8b26f4c80cc65",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "5000000000000000",
+        "post": "5000000000000000",
+        "pre": "5000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb69e024300f63c452ba0572405d53ca5e991dd77",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb6bd9c764effc12875e818bd3be827eb8cf7603a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb7e6dff80f694501d6c347486b0c08bca4f141e9",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xb865823d4ce616620e76c2677800427f3a365efb",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xbddb50d5e65312d1323f404272fd9c10c5da4ce4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xbe9a4452d319ae42b4b23eb55b46d882dc12e005",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xbfbe471a1b31f1ee3a9700652736ec57269db290",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc1ad4aebc470176e5ecc2c87717096aa17e0af1a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "108466839338000000000",
+        "post": "108466839338000000000",
+        "pre": "108466839338000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc1bd4f07421571364617adce98a8d657f52498b7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc2582bcf3b668483597ed3711e7d38969341de21",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc3bffc7df42ac07836a84b400a95f1168f90041d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc73718b23cacf4d15aad53e26c6d73a999ccedce",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc78ae64113b358435cb626d1519ddd0fc873bfb4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xc99f0813a601eb1e696f7c8e4d8d3cf197c95719",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xca58f4f8687bc333cc44f41f3e04a3cc3137eb1f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcb94c18f5c9cb3f6f7241d25b2d1b57ad1203808",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcd9e1a9ce2fb95c548d599da3a61de09342db4d5",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcdbca5b8fa98d60843806014eabc6e4b785e4f7c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "184728438000000000",
+        "post": "184728438000000000",
+        "pre": "184728438000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xce8e7257b640cf9eef096b188e1345e96c4a80d9",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcea4f450516da688faaa34a151d1480eca7ccc71",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcf27f7edddb7af3744a545c0f8fc5b27bc652fcc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "3720439748623489",
+        "post": "3720439748623489",
+        "pre": "3720439748623489"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xcfe56f64824c75dcfc2d9860cca088f287d4768b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "94222230000000000",
+      "balanceWei": {
+        "current": "120846970000000000",
+        "post": "26624740000000000",
+        "pre": "26624740000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd0f8ac2594e856a4677a1d2a734146801ced9491",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "999000000000000000",
+        "post": "999000000000000000",
+        "pre": "999000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd15f62451ac8a796bcd2d362b616ecf70949a055",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "zeroSlots": [
+        9
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd1e594199f020448a5d477ac807747cf753a89b0",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "40000000000000000",
+        "post": "40000000000000000",
+        "pre": "40000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 12,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 12,
+      "required": 5,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd32db75141f77a1174ba3130f69f0aa002cb1ccc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd341a30c9946f61cb90e3870ad3fa9019f981ae2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "23724278000000000",
+        "post": "23724278000000000",
+        "pre": "23724278000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd3aaedc5da58c56d77c26f02c4b6bf4f5bffe0d1",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd56e9b2f46ee2aeef5ca2e0713db2760e056f94f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xd6934a115916a7144f81d92fb8b61626a338c726",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "10000000000000000",
+        "post": "10000000000000000",
+        "pre": "10000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdaaacb21032be15b7e60e51972f501bb9755bc83",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "1010000000000",
+      "balanceWei": {
+        "current": "6925000001010000000000",
+        "post": "6925000000000000000000",
+        "pre": "6925000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdb0e7d784d6a7ca2cbda6ce26ac3b1bd348c06f8",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdb9bf3575c9014065130b09d4febbc3fbb4b4227",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "40000000000000000",
+      "balanceWei": {
+        "current": "1062000000000000000",
+        "post": "1022000000000000000",
+        "pre": "1022000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdd0c464c5ef163badeb6d3f4d71ed956771d599f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdea528dd42f1f560ce748af846b3975c33728217",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "20000000000000000",
+        "post": "20000000000000000",
+        "pre": "20000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdf665ab68393bd31cf244171ba57abdbe871f81d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdf99823dac53d2d4b993f0391d8e88aa487c2f31",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xdfc20878af74a424de3b0cbdfd42cfcde53932e2",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "50000000000000000",
+        "post": "50000000000000000",
+        "pre": "50000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe01c0bdc8f2a8a6220a4bed665ceeb1d2c716bcb",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "2008328798446213056",
+      "balanceWei": {
+        "current": "6623524744072033344",
+        "post": "4615195945625820288",
+        "pre": "4615195945625820288"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe0b93a625693a33221cf9bd534ae790ea59a9ba7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe125e60fafd5fcef0bf4a6d6f79fec0f5d1f8cbe",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "49693242000000000",
+        "post": "49693242000000000",
+        "pre": "49693242000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe3a482efacc86b55cd60fa1ae07b658548e00c2e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "350000000000000000000",
+        "post": "350000000000000000000",
+        "pre": "350000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe4aa399ac8c2c636c3f084f8176c01c5c73ed90e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe4bd8e54814c54244b93beb8c83e924fdcc1da4c",
+      "zeroSlots": [
+        8
+      ]
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe50058012b9a881d983cb5347c75354e055331e8",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe566c7a1b28ae3ac72bf2336d83f09860787f586",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe56927b836c06ba78c3817c590d5f419e2358218",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "150000000000000000",
+      "balanceWei": {
+        "current": "150000000000000000",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe64ff72d09515593bf11f43aa4ec6765ce4270c4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "15041260672000000000",
+      "balanceWei": {
+        "current": "15042084644672244995",
+        "post": "823972672244995",
+        "pre": "823972672244995"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xe930a921e018b8981f9d8ec9ad7d31d47edbfd28",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xeb011ebe376358de424adfbd7807ba4d1e424ce7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [
+        "0x47e48c958628670469c7e67aeb276212015b26fe"
+      ],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "indexMismatches": [
+        {
+          "arraySlot": 6,
+          "arrayWord": "0x47e48c958628670469c7e67aeb276212015b26fe",
+          "index": 1,
+          "mappingSlot": "0xa084201e1ccb496c800e1789fb50d3fab70e2ed85676b3a98330135b9741071f",
+          "mappingValue": "2",
+          "owner": "0x47e48c958628670469c7e67aeb276212015b26fe"
+        }
+      ],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xeb7f7d58e29f02b079157e8bacfac40ed211359b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xebf5206c23b66456aa1afa2a55591869568689df",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xec2644ae44eee9b9f476ef8dda8d7efa2340ce37",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xec51a8d16011460c7c0195052e9f898b6ac6d031",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 9,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 9,
+      "required": 5,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xec86ad3c96a242f5f108a081194a9c5650bd8701",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "345499527542000000000",
+        "post": "345499527542000000000",
+        "pre": "345499527542000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xef5da7752c084df1cc719c64bbe06fa98b2c554c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "115000000000000000",
+        "post": "115000000000000000",
+        "pre": "115000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xefa1994328e59f8e24d85458810d67a27289679a",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf158075cb393c0114026ae6f741c85ac3e18923e",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf1639682273b06a0cd887aa2325517f1ed674bdd",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf1eae5c823956a1970712d1473dafc7b13d22ba4",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf337334de621a4af1a9371e35710ba21abcf1f9f",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf451de832887f56952e606392a6c9786d8629028",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 5,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 5,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf590bbd25f47d7af634af1f37acbcc631b7363fe",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf5948877f4a351db245282af3cbec5791283b61c",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "50000000000000000",
+        "post": "50000000000000000",
+        "pre": "50000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 4,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf6c68965cdc903164284b482ef5dfdb640d9e0de",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "1399999999999372908670",
+        "post": "1399999999999372908670",
+        "pre": "1399999999999372908670"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf6e51ae30705cd7248d4d9ac602cb58cc4b61a52",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "90000000000000000",
+        "post": "90000000000000000",
+        "pre": "90000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf732111603254eefcb22fcd203c83c2ef1c815e6",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xf82ea8a8e821461abdbaa988ab65948828a6389d",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfa524ac26ec6ec26a446172086344da9e75e14fa",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 3,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 3,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfbdf2c384ea983ae4ea18bace01b422494485096",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfc244c837f0df2b82c8995a3e334ec3845c8ac38",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "1000000000000000",
+      "balanceWei": {
+        "current": "1000000000000000",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfc7b0f63e1ad6b23482627ac798d59c1f585dd17",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "2000000000000000000",
+        "post": "2000000000000000000",
+        "pre": "2000000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfd5146ba81c661799b7f7dfffb22e3b0b7224ee3",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 2,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 2,
+      "required": 2,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfd5e80260d7d7644ea4b1ca81d6992dead65f08b",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "86000000000000000",
+        "post": "86000000000000000",
+        "pre": "86000000000000000"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfd73888dfd09066188ab2a6bd5e5ee67435f79a7",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 1,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfdba4786298bbb9219ec1b4e209ec30246f17b26",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfe3460f80961c466f2afe9a9291dc0c66a12e7c5",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 4,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 4,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfea0191dba1ca73f9728e904335ec98ad44203ef",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "PROCEED_TO_PROOF_VERIFICATION",
+      "distinctEnumeratedNonzeroOwners": 6,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [],
+      "indexMismatches": [],
+      "reportedOwnerCount": 6,
+      "required": 3,
+      "thresholdExceedsDistinctEnumeratedOwners": false,
+      "wallet": "0xfeb7abbce1108d16278fb322d65265211bff6cc9",
+      "zeroSlots": []
+    },
+    {
+      "authorizationSnapshotsMatch": true,
+      "balanceDeltaWei": "0",
+      "balanceWei": {
+        "current": "0",
+        "post": "0",
+        "pre": "0"
+      },
+      "disposition": "QUARANTINE_PENDING_SEMANTICS",
+      "distinctEnumeratedNonzeroOwners": 1,
+      "duplicateAddresses": [],
+      "eligibility": "NOT_DETERMINED",
+      "flags": [
+        "INVALID_THRESHOLD"
+      ],
+      "indexMismatches": [],
+      "reportedOwnerCount": 1,
+      "required": 10,
+      "thresholdExceedsDistinctEnumeratedOwners": true,
+      "wallet": "0xff7bb940b38edf80e964ec756479d362fddf1532",
+      "zeroSlots": []
+    }
+  ]
+}

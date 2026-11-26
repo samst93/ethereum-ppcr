@@ -1,0 +1,348 @@
+{
+  "schema": "ppcr-b45c-differential-v1",
+  "inputs": {
+    "ppcr_b44d_report(2).json": "2685d32f4cf915fc5d8447e50dac34d798ed5b7a0d72eb9f61e3e8d6117674c1",
+    "ppcr_b45b_report.json": "0ef6a5265bfa3d0af0e841eb8d05e54b28e988921dc070256a9be6c0ccaf6b4b"
+  },
+  "referenceMatchesLocal": true,
+  "rows": [
+    {
+      "fixture": "nonowner",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 117,
+      "reads": 1,
+      "writes": 0,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "single",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 368,
+      "reads": 10,
+      "writes": 9,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8d": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8e": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8f": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "fixture": "two",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "two",
+      "step": 1,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 152,
+      "reads": 3,
+      "writes": 0,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "two",
+      "step": 2,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 261,
+      "reads": 6,
+      "writes": 4,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8d": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8e": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8f": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "fixture": "two",
+      "step": 3,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "shared_index",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "shared_index",
+      "step": 1,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 152,
+      "reads": 3,
+      "writes": 0,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "zero_mapping",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "zero_threshold",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 368,
+      "reads": 10,
+      "writes": 9,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8d": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8e": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8f": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "fixture": "excess",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "excess",
+      "step": 1,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 207,
+      "reads": 6,
+      "writes": 2,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "isolation",
+      "step": 0,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "isolation",
+      "step": 1,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 314,
+      "reads": 10,
+      "writes": 7,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {}
+    },
+    {
+      "fixture": "isolation",
+      "step": 2,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 261,
+      "reads": 6,
+      "writes": 4,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8d": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8e": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4057d7e6372bcd9e09a4811eb52c8196e2e990e89af859111775c4f84e940d8f": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "fixture": "isolation",
+      "step": 3,
+      "checks": {
+        "identity": true,
+        "result": true,
+        "entry": true,
+        "trace": true,
+        "events": true,
+        "internalStorage": true,
+        "publicPreservesInternal": true
+      },
+      "traceLength": 261,
+      "reads": 6,
+      "writes": 4,
+      "publicError": "<nil>",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "additionalPublicTouchedSlots": {
+        "0x58023706c0bb9b1845afe82e28755c68df7469d51228f21feb921051060c2304": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x58023706c0bb9b1845afe82e28755c68df7469d51228f21feb921051060c2305": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x58023706c0bb9b1845afe82e28755c68df7469d51228f21feb921051060c2306": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    }
+  ],
+  "counts": {
+    "vectors": 16,
+    "checks": 112,
+    "failures": 0,
+    "instructions": 4345,
+    "reads": 121,
+    "writes": 81
+  },
+  "eligibility": "NOT_DETERMINED",
+  "limitations": [
+    "Report comparison only; Geth provenance not independently verified",
+    "Synthetic direct calls, not historical proxy replay",
+    "Additional public touched slots are not necessarily writes; no full public trace"
+  ]
+}

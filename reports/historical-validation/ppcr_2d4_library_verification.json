@@ -1,0 +1,32 @@
+{
+  "inputSha256": "99e5c8566f01ef531053e429fc5925d49d0d6f8838964859b3bc150941efc678",
+  "rows": [
+    {
+      "block": 4501968,
+      "root": "0xb1f01f4c02cf90ffb4011de01da52c6681255654c8767f5b999c65fe1a61a53b",
+      "result": "PRESENT",
+      "nodes": 8,
+      "account": {
+        "nonce": 1,
+        "balance": 0,
+        "storageHash": "0xed5b8b35e4a9a6fdc83d92d706416519d4f0d25d60f26d9b35adc29b7921e638",
+        "codeHash": "0x15e25447f2cb376d8b0f5c72a2f8053c293dbe32dd1c3a354ce1fdb6dc76dfb4"
+      },
+      "terminal": "leaf"
+    },
+    {
+      "block": 4501969,
+      "root": "0xbbe30a4416aa0f5ddc3d61e56b670565f6174513df3fb24525f7e2a5a7da9e1b",
+      "result": "ABSENT",
+      "nodes": 7,
+      "account": null,
+      "terminal": "empty branch child"
+    }
+  ],
+  "limitations": [
+    "Specific supplied hashed-node paths only; not a general MPT verifier",
+    "Roots corroborated by RPC, not independently consensus authenticated",
+    "Wallet storage proofs not verified"
+  ],
+  "eligibility": "NOT_DETERMINED"
+}
