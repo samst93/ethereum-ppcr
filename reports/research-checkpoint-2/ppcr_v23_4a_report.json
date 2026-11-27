@@ -1,0 +1,4223 @@
+{
+  "eligibility": "NOT_DETERMINED",
+  "failedObservationChecks": 0,
+  "fixtureSha256": "7252db3c4e8de5637d8bab91d2f0f5810185287ddab23d062425f5aefe58d426",
+  "limitations": [
+    "Direct library calls in an isolated synthetic account; no proxy or signed transaction replay",
+    "Only proven selected slots populated; unobserved mapping and pending-operation storage assumed empty",
+    "Internal return not public authorization verdict; public errors recorded, not interpreted",
+    "Historical balance not loaded; Geth provenance unverified"
+  ],
+  "noListedSignerScenarios": 0,
+  "rows": [
+    {
+      "codeUnchanged": true,
+      "fixture": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x009f3de1e8878cda9c2e94a6ce6084d9ca86425c",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0a4bef293d429fc5a861901bc2bfc0f72ed95fb1",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0a4bef293d429fc5a861901bc2bfc0f72ed95fb1",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0a4bef293d429fc5a861901bc2bfc0f72ed95fb1",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0a4bef293d429fc5a861901bc2bfc0f72ed95fb1",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x0b1a4994d8a0ad27289849dc883d8ae98ca0a45a",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1426a8fdcd713132ea4784e905687f68240d5cfe",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1426a8fdcd713132ea4784e905687f68240d5cfe",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1426a8fdcd713132ea4784e905687f68240d5cfe",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1426a8fdcd713132ea4784e905687f68240d5cfe",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x146f1708d8ab639f21edf029adde35c2b15c5e26",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1de748da20266aad571cc24af1c791240ae7f2e4",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1de748da20266aad571cc24af1c791240ae7f2e4",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1de748da20266aad571cc24af1c791240ae7f2e4",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x1de748da20266aad571cc24af1c791240ae7f2e4",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x258119b345a71bde55aeb67413c0c6e7e96c44bf",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x258119b345a71bde55aeb67413c0c6e7e96c44bf",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x258119b345a71bde55aeb67413c0c6e7e96c44bf",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x258119b345a71bde55aeb67413c0c6e7e96c44bf",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x29cb6ad7b3eac8342438f2a40e7632a98964a0a1",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b41c085a79a3bdf5494141cec188cfbbf70b2b9",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b41c085a79a3bdf5494141cec188cfbbf70b2b9",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b41c085a79a3bdf5494141cec188cfbbf70b2b9",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b41c085a79a3bdf5494141cec188cfbbf70b2b9",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b70211148e956955db8fd5beea4f634a5ad1744",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b70211148e956955db8fd5beea4f634a5ad1744",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b70211148e956955db8fd5beea4f634a5ad1744",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x2b70211148e956955db8fd5beea4f634a5ad1744",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3853a8344c162cc19d2cad87ee7d1e6159f703ca",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3853a8344c162cc19d2cad87ee7d1e6159f703ca",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3853a8344c162cc19d2cad87ee7d1e6159f703ca",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3b9aedad1133bf070800feda93d590ff7ca18a05",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3b9aedad1133bf070800feda93d590ff7ca18a05",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3b9aedad1133bf070800feda93d590ff7ca18a05",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x3b9aedad1133bf070800feda93d590ff7ca18a05",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4324181aa7bbc103aa316e762118c72fc55db9e4",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4585b138dc13925c65613a511fc1fc642d16d976",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4585b138dc13925c65613a511fc1fc642d16d976",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4585b138dc13925c65613a511fc1fc642d16d976",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4585b138dc13925c65613a511fc1fc642d16d976",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4585b138dc13925c65613a511fc1fc642d16d976",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x46eb986afccd8e2edacfdc6aab13d81eba4ee99d",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4840516ca9e39391c6c77d1d7c89af11cb3d0ee8",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4840516ca9e39391c6c77d1d7c89af11cb3d0ee8",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4840516ca9e39391c6c77d1d7c89af11cb3d0ee8",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4b0f72d7007a019da07c7f3b9a8a5472374aeecf",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4b0f72d7007a019da07c7f3b9a8a5472374aeecf",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x4b0f72d7007a019da07c7f3b9a8a5472374aeecf",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x52503c16fa494daba7c214519d833c8ff60c2edb",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x52503c16fa494daba7c214519d833c8ff60c2edb",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x52503c16fa494daba7c214519d833c8ff60c2edb",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x57e7a9668a60d9a6fad927c048051610ce5feb03",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x57e7a9668a60d9a6fad927c048051610ce5feb03",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x57e7a9668a60d9a6fad927c048051610ce5feb03",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x57e7a9668a60d9a6fad927c048051610ce5feb03",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x62c00230b47cc17d6c9a871352568b3f4ffc5f1a",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x62c00230b47cc17d6c9a871352568b3f4ffc5f1a",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x62c00230b47cc17d6c9a871352568b3f4ffc5f1a",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x66ea39aee3f4a2e39d2f28b397a4daf0bffafd89",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x66ea39aee3f4a2e39d2f28b397a4daf0bffafd89",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x66ea39aee3f4a2e39d2f28b397a4daf0bffafd89",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x66ea39aee3f4a2e39d2f28b397a4daf0bffafd89",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7388fd3117ad58ca09d6655b00170bdb1f218db8",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7388fd3117ad58ca09d6655b00170bdb1f218db8",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7388fd3117ad58ca09d6655b00170bdb1f218db8",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7388fd3117ad58ca09d6655b00170bdb1f218db8",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7989955d18adc3d356cfa5f3770621bba37d9d9f",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7989955d18adc3d356cfa5f3770621bba37d9d9f",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7989955d18adc3d356cfa5f3770621bba37d9d9f",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x7989955d18adc3d356cfa5f3770621bba37d9d9f",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x81158ddcdba6a6341027e771d72865d86666c100",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8254c841544151fbfc656e2fd2e57f71aaadd592",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8254c841544151fbfc656e2fd2e57f71aaadd592",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8254c841544151fbfc656e2fd2e57f71aaadd592",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8254c841544151fbfc656e2fd2e57f71aaadd592",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8266bcb06a66efe3150a6f3ddd4f43caeb566245",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8266bcb06a66efe3150a6f3ddd4f43caeb566245",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8266bcb06a66efe3150a6f3ddd4f43caeb566245",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x840d23f5dfac11436c7251e000691826cd657f09",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x89a90af92cc4048005cdf29db58cc6d42dc5a6e4",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x89a90af92cc4048005cdf29db58cc6d42dc5a6e4",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x89a90af92cc4048005cdf29db58cc6d42dc5a6e4",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x89a90af92cc4048005cdf29db58cc6d42dc5a6e4",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8cfab485f4de196cc65073dc8d1196c7b6449940",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8cfab485f4de196cc65073dc8d1196c7b6449940",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x8cfab485f4de196cc65073dc8d1196c7b6449940",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x95f49c4ac16563ebe09e98543cdc38a0265c1934",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x95f49c4ac16563ebe09e98543cdc38a0265c1934",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0x95f49c4ac16563ebe09e98543cdc38a0265c1934",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa57b2cf597996a92c9967bd0f3e9d22f565b3a62",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa57b2cf597996a92c9967bd0f3e9d22f565b3a62",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa57b2cf597996a92c9967bd0f3e9d22f565b3a62",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa57b2cf597996a92c9967bd0f3e9d22f565b3a62",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9139277a57a86dbe1ab916e111b982f12ed7fdf",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9eebb32a1d459eb1eb5078c543427c34da44313",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9eebb32a1d459eb1eb5078c543427c34da44313",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9eebb32a1d459eb1eb5078c543427c34da44313",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9eebb32a1d459eb1eb5078c543427c34da44313",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xa9eebb32a1d459eb1eb5078c543427c34da44313",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xad0d6a9c97d6d401a7e4444859f41f0606d07b62",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xad0d6a9c97d6d401a7e4444859f41f0606d07b62",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xad0d6a9c97d6d401a7e4444859f41f0606d07b62",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb4a2870e783d7b7b98b0a69eaa9926ef3b0e92da",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb4a2870e783d7b7b98b0a69eaa9926ef3b0e92da",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb4a2870e783d7b7b98b0a69eaa9926ef3b0e92da",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb4a2870e783d7b7b98b0a69eaa9926ef3b0e92da",
+      "gasLeft": 9918978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb696bee07c81b57ef2832353a7e8b26f4c80cc65",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb696bee07c81b57ef2832353a7e8b26f4c80cc65",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xb696bee07c81b57ef2832353a7e8b26f4c80cc65",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc0bffe3169967e18a07602bb5312eb8fda2c6b5c",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc0bffe3169967e18a07602bb5312eb8fda2c6b5c",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc0bffe3169967e18a07602bb5312eb8fda2c6b5c",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc1bef33095fc3ff1bfa38a193a028fd670751462",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc1bef33095fc3ff1bfa38a193a028fd670751462",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc1bef33095fc3ff1bfa38a193a028fd670751462",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc1bef33095fc3ff1bfa38a193a028fd670751462",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc1bef33095fc3ff1bfa38a193a028fd670751462",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc24eff02ded1c5bd133c285b9d368995dc8f15b7",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc24eff02ded1c5bd133c285b9d368995dc8f15b7",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc24eff02ded1c5bd133c285b9d368995dc8f15b7",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc24eff02ded1c5bd133c285b9d368995dc8f15b7",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc24eff02ded1c5bd133c285b9d368995dc8f15b7",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc503e2a06eab6a7e4c61f7f80befb51e614655f2",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc503e2a06eab6a7e4c61f7f80befb51e614655f2",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xc503e2a06eab6a7e4c61f7f80befb51e614655f2",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xce9a6705a416aa6d5c488e5754f612c915e31bae",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd1c56f6aaa42ea2f58909bbbd273e86225c35850",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd7b349624208a406627010b7d440dd2f25ddd63a",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd7b349624208a406627010b7d440dd2f25ddd63a",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd7b349624208a406627010b7d440dd2f25ddd63a",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd7b349624208a406627010b7d440dd2f25ddd63a",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xd7b349624208a406627010b7d440dd2f25ddd63a",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xe4bd8e54814c54244b93beb8c83e924fdcc1da4c",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xe4bd8e54814c54244b93beb8c83e924fdcc1da4c",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xe4bd8e54814c54244b93beb8c83e924fdcc1da4c",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xe4bd8e54814c54244b93beb8c83e924fdcc1da4c",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xeb0f8d2f1efbeeaecf5ef61b16f45e1a1c0082dc",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf22438c3c3c2f59bdac48a1a84db33e4fa82c701",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf22438c3c3c2f59bdac48a1a84db33e4fa82c701",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf22438c3c3c2f59bdac48a1a84db33e4fa82c701",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf44ddf4ebfb88c956ff0dd99e63255babf75f267",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf44ddf4ebfb88c956ff0dd99e63255babf75f267",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf44ddf4ebfb88c956ff0dd99e63255babf75f267",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf44ddf4ebfb88c956ff0dd99e63255babf75f267",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf44ddf4ebfb88c956ff0dd99e63255babf75f267",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 3,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9975157,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 4,
+      "storageWriteOpcodes": 4,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 5,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xf5706748b4d1489d54e17eba8bce0f86dd7ac862",
+      "gasLeft": 9986441,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "OWNER_INDEX_MISMATCH"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 6,
+      "storageWriteOpcodes": 2,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff7bb940b38edf80e964ec756479d362fddf1532",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff7bb940b38edf80e964ec756479d362fddf1532",
+      "gasLeft": 9900262,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 7,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff7bb940b38edf80e964ec756479d362fddf1532",
+      "gasLeft": 9998514,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "INVALID_THRESHOLD"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "original",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff911dacc99c7667896aab32efd59f01059f2a73",
+      "gasLeft": 9999112,
+      "internalHits": 1,
+      "internalResult": "0x0",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 0,
+      "step": 0,
+      "storageWriteOpcodes": 0,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff911dacc99c7667896aab32efd59f01059f2a73",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 0,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff911dacc99c7667896aab32efd59f01059f2a73",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 1,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    },
+    {
+      "codeUnchanged": true,
+      "fixture": "0xff911dacc99c7667896aab32efd59f01059f2a73",
+      "gasLeft": 9903978,
+      "internalHits": 1,
+      "internalResult": "0x1",
+      "issues": [
+        "DUPLICATE_OWNER",
+        "NONCANONICAL_OR_ZERO_OWNER"
+      ],
+      "ownershipSlotsUnchanged": true,
+      "population": "additional",
+      "publicError": "\u003cnil\u003e",
+      "publicOutput": "0000000000000000000000000000000000000000000000000000000000000000",
+      "scenario": 1,
+      "step": 2,
+      "storageWriteOpcodes": 9,
+      "traceObserved": true
+    }
+  ],
+  "schema": "ppcr-v23.4a-bounded-native-observations",
+  "status": "PASS",
+  "wallets": 50
+}

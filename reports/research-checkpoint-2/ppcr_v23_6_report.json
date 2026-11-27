@@ -1,0 +1,27 @@
+{
+  "balancesWei": [
+    "513537869434745980492533",
+    "513537869434745980492533",
+    "515035136676569840784788"
+  ],
+  "commitment": "e6840ccdc8bbd61222c3f074065196e3c97000d757c4452aa1c24e105cc97e5c",
+  "eligibility": "NOT_DETERMINED",
+  "inputFingerprintsBound": 11,
+  "limitations": [
+    "Bundle-level verification; source inputs not reconstructed or raw trie proofs replayed",
+    "Native observations not rerun",
+    "Pinned commitment is research-only"
+  ],
+  "nativeCalls": 228,
+  "proofsVerified": 585,
+  "quarantineBalancesWei": [
+    "92113565929498391369",
+    "92113565929498391369",
+    "128108411940159014798"
+  ],
+  "quarantined": 50,
+  "scope": "RESEARCH_EVIDENCE_ONLY",
+  "status": "PASS",
+  "testsPassed": 28,
+  "treeRoot": "f0560b92eb9de5fd3cbcebc4479804c8bf974060ad52059a3afe7e829cbc9022"
+}
